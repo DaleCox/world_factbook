@@ -20,15 +20,15 @@ node server.js
 ```
 
 
-TODO List:
+## TODO List
 - Wireframe the content panes
 - Create React components
--- Nav tree 
--- Region 
--- Country 
+ - Nav tree 
+ - Region 
+ - Country 
 - Format footer 
 - Unit testing 
 - Analytics
--- Might be worth checking out https://developers.facebook.com/products/analytics 
--- can always fall back on GA
--- Should also add in New Relic 
+ - Might be worth checking out https://developers.facebook.com/products/analytics 
+ - can always fall back on GA
+ - Should also add in New Relic 
