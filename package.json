@@ -1,0 +1,36 @@
+{
+  "name": "The_World_Factbook_Refactored",
+  "version": "0.0.0",
+  "private": true,
+  "license": "see LICENSE file",
+  "description": "Based off React tutorial demonstrates a new approach on the World Factbook.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "express": "^4.4.5",
+    "serve-favicon": "~2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "#"
+  },
+  "keywords": [
+    "react",
+    "tutorial",
+    "world factbook",
+    "example"
+  ],
+  "author": "DaleCox",
+  "bugs": {
+    "url": "#"
+  },
+  "homepage": "https://github.com/DaleCox",
+  "engines" : {
+    "node" : "4.4.x"
+  }
+}

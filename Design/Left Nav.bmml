@@ -1,0 +1,24 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="776" measuredH="603" mockupW="600" mockupH="567">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="176" y="36" w="600" h="567" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20React%20Example%0Ahttp%3A//ReactExample.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="191" y="111" w="570" h="79" measuredW="77" measuredH="79" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Header%20Graphic</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Tree" x="191" y="196" w="216" h="369" measuredW="300" measuredH="369" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%3E%20Closed%20Region%0Av%20Open%20Region%0A.%3E%20Closed%20Country%0A.%3E%20Closed%20Country%0A.%3E%20Closed%20Country%0A.v%20Open%20Country%0A..-%20Introduction%0A..-%20Geography%0A..-%20People%20and%20Society%0A..-%20Government%0A..-%20Economy%0A..-%20Energy%0A..-%20Communications%0A..-%20Transportation%0A..-%20Military%20and%20Security%0A..-%20Transnational%20Issues%0A%3E%20Closed%20Region</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::StickyNote" x="433" y="269" w="321" h="244" measuredW="109" measuredH="123" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Selecting%20a%20region%20will%20display%20the%20countries%20and%20expand%20the%20tree.%0A%20%0ASelecting%20a%20country%20will%20display%20the%20summary%20information%20for%20the%20country%20and%20expand%20to%20the%20leaf%20properties%20of%20the%20country.%20%20%0A%20%0ASelecting%20a%20leaf%20will%20expand%20that%20particular%20section%20in%20the%20content%20window.</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

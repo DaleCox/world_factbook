@@ -1,0 +1,35 @@
+{
+    "Regions":[
+        {
+            "Name":"North America",
+            "Countries":[
+                "Bermuda","Canada","Clipperton Island",
+                "Greenland","Mexico","Saint Pierre and Mixuelon", "United States"
+            ]
+        },
+        {
+            "Name":"South America",
+            "Countries":[]},
+        {
+            "Name":"Europe",
+            "Countries":[]},
+        {
+            "Name":"Middle East",
+            "Countries":[]},
+        {
+            "Name":"Africa",
+            "Countries":[]},
+        {
+            "Name":"Central Asia",
+            "Countries":[]},
+        {
+            "Name":"South Asia",
+            "Countries":[]},
+        {
+            "Name":"East and South Asia",
+            "Countries":[]},
+        {
+            "Name":"Australia - Oceania",
+            "Countries":[]}
+    ]
+}
