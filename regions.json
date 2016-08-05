@@ -5,31 +5,40 @@
             "Countries":[
                 "Bermuda","Canada","Clipperton Island",
                 "Greenland","Mexico","Saint Pierre and Mixuelon", "United States"
-            ]
+            ],
+            "id":0
         },
         {
             "Name":"South America",
-            "Countries":[]},
+            "Countries":[],
+            "id":1},
         {
             "Name":"Europe",
-            "Countries":[]},
+            "Countries":[],
+            "id":2},
         {
             "Name":"Middle East",
-            "Countries":[]},
+            "Countries":[],
+            "id":3},
         {
             "Name":"Africa",
-            "Countries":[]},
+            "Countries":[],
+            "id":4},
         {
             "Name":"Central Asia",
-            "Countries":[]},
+            "Countries":[],
+            "id":5},
         {
             "Name":"South Asia",
-            "Countries":[]},
+            "Countries":[],
+            "id":6},
         {
             "Name":"East and South Asia",
-            "Countries":[]},
+            "Countries":[],
+            "id":7},
         {
             "Name":"Australia - Oceania",
-            "Countries":[]}
+            "Countries":[],
+            "id":8}
     ]
 }
