@@ -11,7 +11,7 @@ The wireframes for the site can be found in the design folder, they were created
 
 The Data for the site is taken from https://www.cia.gov/library/publications/resources/the-world-factbook/ summer 2016. 
 
-== Local Development ==
+## Local Development
 To enable localhost development I have leveraged the model used in the React tutorial and am using node to host the app.
 
 ```sh
