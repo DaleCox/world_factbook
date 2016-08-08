@@ -1,0 +1,61 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="776" measuredH="799" mockupW="600" mockupH="763">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="176" y="36" w="600" h="763" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20React%20Example%0Ahttp%3A//ReactExample.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="191" y="111" w="570" h="79" measuredW="77" measuredH="79" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Header%20Graphic</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Tree" x="191" y="196" w="216" h="564" measuredW="300" measuredH="369" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%3E%20Closed%20Region%0Av%20Open%20Region%0A.%3E%20Closed%20Country%0A.%3E%20Closed%20Country%0A.%3E%20Closed%20Country%0A.v%20Open%20Country%0A..-%20Introduction%0A..-%20Geography%0A..-%20People%20and%20Society%0A..-%20Government%0A..-%20Economy%0A..-%20Energy%0A..-%20Communications%0A..-%20Transportation%0A..-%20Military%20and%20Security%0A..-%20Transnational%20Issues%0A%3E%20Closed%20Region</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Title" x="422" y="196" w="339" h="-1" measuredW="211" measuredH="35" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>32</size>
+        <text>Country%20Name</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Image" x="674" y="231" w="-1" h="-1" measuredW="77" measuredH="79" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Flag</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Image" x="675" y="330" w="-1" h="-1" measuredW="77" measuredH="79" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Country%20Map</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Paragraph" x="414" y="277" w="245" h="80" measuredW="275" measuredH="80" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>At%20quis%20at.%20Magna%20nam%20porttitor%20fringilla%20a%20cursus%20eget%20massa%20sed%20enim%20montes%20at.%20Arcu%20nunc%20lacinia.%20Metus%20semper%20accumsan%20tempor%20ante%20libero%20integer%20penatibus%20laoreet%20habitasse%20feugiat%20semper.%20Justo%20amet%20mattis.%20Eget%20dignissim%20dui%20diam%20justo%20donec%20elementum%20mi%20mi%20nisl%20vulputate%20donec.%20Sodales%20porttitor%20con.%20Luctus%20ligula%20tellus%20suspendisse%20purus%20officia%20neque%20etiam%20massa.%20Eros%20fermentum%20sit.%20Wisi%20odio%20in.%20Per%20curabitur%20ridiculus%20porttitor%20sed%20neque%20volutpat%20mi%20dolor.%20Orci%20nunc%20pretium%20nibh%20lacinia%20dolorem.%20Feugiat%20suspendisse%20ut.%20Elit%20quis%20purus%20vel%20eu%20suspendisse.%20Sagittis%20id%20pulvinar.</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::SubTitle" x="413" y="243" w="-1" h="-1" measuredW="131" measuredH="27" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Introduction</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::SubTitle" x="414" y="382" w="-1" h="-1" measuredW="76" measuredH="27" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Details</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Accordion" x="414" y="424" w="337" h="335" measuredW="384" measuredH="402" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>0</selectedIndex>
+        <text>Geography%0A-%20At%20quis%20at.%20Magna%20nam%20porttitor%20fringilla%20a%20cursus%20eget%20massa%20%0A-%20sed%20enim%20montes%20at.%20Arcu%20nunc%20lacinia.%20Metus%20semper%20%20%0APeople%20and%20Society%0AGovernment%0AEconomy%0AEnergy%0ACommunications%0ATransportation%0AMilitaray%20and%20Security%0ATransnational%20Issues%0AFlag%20Description</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::StickyNote" x="191" y="561" w="223" h="199" measuredW="109" measuredH="123" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>This%20content%20layout%20replicates%20some%20of%20the%20design%20that%20the%20existing%20Worldfactbook%20uses%20with%20accordion%20to%20shrink%20content.%20%0A%20%0AThe%20nav%20approach%20intends%20that%20when%20a%20leaf%20is%20selected%20in%20the%20left%20Nav%20that%20the%20accordion%20for%20that%20section%20will%20expand.</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

@@ -1,0 +1,40 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="776" measuredH="603" mockupW="600" mockupH="567">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="176" y="36" w="600" h="567" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20React%20Example%0Ahttp%3A//ReactExample.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="191" y="111" w="570" h="79" measuredW="77" measuredH="79" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Header%20Graphic</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Tree" x="191" y="196" w="216" h="369" measuredW="300" measuredH="369" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%3E%20Closed%20Region%0Av%20Open%20Region%0A.%3E%20Closed%20Country%0A.%3E%20Closed%20Country%0A.%3E%20Closed%20Country%0A.v%20Open%20Country%0A..-%20Introduction%0A..-%20Geography%0A..-%20People%20and%20Society%0A..-%20Government%0A..-%20Economy%0A..-%20Energy%0A..-%20Communications%0A..-%20Transportation%0A..-%20Military%20and%20Security%0A..-%20Transnational%20Issues%0A%3E%20Closed%20Region</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Image" x="583" y="239" w="178" h="326" measuredW="77" measuredH="79" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Region%20Image</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::List" x="422" y="239" w="146" h="326" measuredW="100" measuredH="126" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Country%20One%0ACountry%20Two%0ACountry%20Three%0ACountry%20N</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Title" x="422" y="198" w="339" h="-1" measuredW="193" measuredH="35" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>32</size>
+        <text>Region%20Name</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::StickyNote" x="230" y="326" w="353" h="228" measuredW="109" measuredH="123" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>I%20like%20the%20region%20interface%20from%20the%20World%20Factbook%2C%20simple%20and%20clean%20interface.%20%20I%20replicate%20that%20here.%0A%20%0AIt%20would%20be%20great%20if%20we%20could%20replicate%20some%20of%20the%20interactivity%20that%20the%20Flash%20control%20provides%20on%20the%20Source%20site%20via%20a%20React%20component.%20%0A%20%0AWhen%20a%20region%20is%20selected%20the%20region%20content%20window%20will%20populate%20the%20content%20for%20the%20region%20listing%20out%20the%20countries%20in%20the%20region%20and%20displaying%20the%20regional%20map.</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
