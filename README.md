@@ -3,7 +3,7 @@ The World Factbook Refactored
 
 The World Factbook Refactored
 
-This is a project for exploring the use of the React framework.
+This is a project for exploring the use of the React framework. As I hit milestones I'll update the demo page - https://dalecox.github.io/world_factbook/Public/index.html
 
 Many thanks to http://www.favicon-generator.org/ for generating the favicon sets I'm using for the site.
 
