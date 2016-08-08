@@ -48,14 +48,25 @@
             "id":8}
     ];
 //recursive itterator 
-var Branch = React.createClass({   
+var Branch = React.createClass({
+    getInitialState: function() {
+        return {className: "treeNavUnselected"};
+    }, 
+    handleClick(evt) {
+        evt.stopPropagation();
+        //could have also used a boolean state to track selection 
+        if(this.state.className == "treeNavUnselected" )
+            this.setState({className: "treeNavSelected"});
+        else
+            this.setState({className: "treeNavUnselected"});
+    },  
     render: function() {
         var childNodes;
         if(this.props.children.Children)
             childNodes = <BranchList data={this.props.children.Children} />;
         return (  
             //todo set class name as part of state 
-            <li className="treeNavUnselected">
+            <li className={this.state.className} onClick={this.handleClick}>
             {this.props.children.Name}
             {childNodes}
             </li>

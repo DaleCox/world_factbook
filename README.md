@@ -18,14 +18,16 @@ To enable localhost development I have leveraged the model used in the React tut
 npm install
 node server.js
 ```
-
+## Tree Component
+The React Tree Component uses CSS to hide and show branches / leafs. For small trees this approach will be fine. If the tree becomes very large then I would approach it with a lazy loading approach, only loading data at depth of two from the current selected node.  This would allow the model to scale to a large data set.  
 
 ## TODO List
 - Wireframe the content panes
 - Create React components
  - Nav tree 
- - Region 
- - Country 
+  - Leaf node class (img and background color when selected)
+ - Region Content
+ - Country Content
 - Format footer 
 - Unit testing 
 - Analytics

@@ -1,7 +1,14 @@
 .treeNavUnselected {
-    list-style-image:  url(../img/side.png)
+    list-style-image:  url(../img/side.png);
+    cursor: pointer;   
 }
 
+.treeNavUnselected ul { display: none; }
+
+
 .treeNavSelected {
-    list-style-image:  url(../img/down.png)
+    list-style-image:  url(../img/down.png);
+    cursor: pointer;       
 }
+
+.treeNavSelected ul { display: block; }
