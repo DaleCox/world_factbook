@@ -8,7 +8,7 @@ This is a project for exploring the use of the React framework. As I hit milesto
 
 ## Design
 The wireframes for the site can be found in the Design folder, they were created using Balsamiq.
-The wireframes have been exported to PDF for easier viewing.
+The wireframes have been exported to PDF for easier viewing, see https://github.com/DaleCox/world_factbook/blob/master/Design/World_Factbook_Refactored_design.pdf 
 
 ## Datasource
 The Data for the site is taken from https://www.cia.gov/library/publications/resources/the-world-factbook/ Summer 2016. 
