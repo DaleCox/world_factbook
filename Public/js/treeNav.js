@@ -1,126 +1,100 @@
 //treeNav.js
 //todo serve data from node web service. 
-var Regions=[
+    var Root=[
         {
             "Name":"North America",
-            "Countries":[
-                "Bermuda","Canada","Clipperton Island",
-                "Greenland","Mexico","Saint Pierre and Mixuelon", "United States"
+            "Children":[
+                {"Name":"Bermuda", "id":0},
+                {"Name":"Canada", "id":1},
+                {"Name":"Clipperton Island", "id":2},
+                {"Name":"Greenland", "id":3},
+                {"Name":"Mexico", "id":4},
+                {"Name":"Saint Pierre and Mixuelon", "id":5},
+                {"Name":"United States", "id":6}
             ],
             "id":0
         },
         {
             "Name":"South America",
-            "Countries":[],
+            "Children":[],
             "id":1},
         {
             "Name":"Europe",
-            "Countries":[],
+            "Children":[],
             "id":2},
         {
             "Name":"Middle East",
-            "Countries":[],
+            "Children":[],
             "id":3},
         {
             "Name":"Africa",
-            "Countries":[],
+            "Children":[],
             "id":4},
         {
             "Name":"Central Asia",
-            "Countries":[],
+            "Children":[],
             "id":5},
         {
             "Name":"South Asia",
-            "Countries":[],
+            "Children":[],
             "id":6},
         {
             "Name":"East and South Asia",
-            "Countries":[],
+            "Children":[],
             "id":7},
         {
             "Name":"Australia - Oceania",
-            "Countries":[],
+            "Children":[],
             "id":8}
     ];
-
-
-
-//todo implement a recursive loop that treats country and region the same
-var Country = React.createClass({
+//recursive itterator 
+var Branch = React.createClass({   
     render: function() {
-    return (  
-        //todo set class name as part of state 
-        <li className="treeNavUnselected">{this.props.children}</li>
-    );
+        var childNodes;
+        if(this.props.children.Children)
+            childNodes = <BranchList data={this.props.children.Children} />;
+        return (  
+            //todo set class name as part of state 
+            <li className="treeNavUnselected">
+            {this.props.children.Name}
+            {childNodes}
+            </li>
+        );
     }
-
 });
 
-var CountyList = React.createClass({
+var BranchList = React.createClass({
     //todo test for presence of data props
     render: function() {
-        
-        var countryNodes;
+        var BranchNodes;
         if(this.props.data)
-        countryNodes = this.props.data.map(function(country) {            
+        BranchNodes = this.props.data.map(function(branch) {            
             return (
-                <Country key={country}>
-                {country}
-                </Country>
+                <Branch key={branch.id}>
+                {branch}                
+                </Branch>
             );
         });
-    return (      
-        <ul>
-            {countryNodes}
-        </ul>
-    );
-  }
-});
-
-var Region = React.createClass({
-    render: function() {
-    return (  
-        //todo set class name as part of state 
-        <li className="treeNavUnselected">
-        {this.props.children.Name}
-        <CountyList data={this.props.children.Countries} />
-        </li>
-    );
+        return (      
+            <ul>
+                {BranchNodes}
+            </ul>
+        );
     }
-
-});
-
-var RegionList = React.createClass({
-    //todo test for presence of data props
-    render: function() {
-        var regionNodes = this.props.data.map(function(region) {            
-            return (
-                <Region key={region.id}>
-                {region}                
-                </Region>
-            );
-        });
-    return (      
-        <ul>
-            {regionNodes}
-        </ul>
-    );
-  }
 });
 
 var TreeNav = React.createClass({
-
     render: function() {
     return (
       <div className="treeNav">
-        <RegionList data={this.props.data} />
+        <BranchList data={this.props.data} />
       </div>
     );
   }
 });
 
 ReactDOM.render(
-  <TreeNav data={Regions} />,
+  <TreeNav data={Root} />,
   document.getElementById('leftNav')
 );
 
