@@ -1,16 +1,59 @@
 //treeNav.js
 //todo serve data from node web service. 
+var countryProperties = [
+    {
+        "id":1,
+        "Name":"Introduction"
+    },
+    {
+        "id":2,
+        "Name":"Geography"
+    },
+    {
+        "id":3,
+        "Name":"People and Society"
+    },
+    {
+        "id":4,
+        "Name":"Government"
+    },
+    {
+        "id":5,
+        "Name":"Economy"
+    },
+    {
+        "id":6,
+        "Name":"Energy"
+    },
+    {
+        "id":7,
+        "Name":"Communications"
+    },
+    {
+        "id":8,
+        "Name":"Transportation"
+    },
+    {
+        "id":9,
+        "Name":"Military and Security"
+    },
+    {
+        "id":10,
+        "Name":"Transational Issues"
+    }
+];
+
     var Root=[
         {
             "Name":"North America",
             "Children":[
-                {"Name":"Bermuda", "id":0},
-                {"Name":"Canada", "id":1},
-                {"Name":"Clipperton Island", "id":2},
-                {"Name":"Greenland", "id":3},
-                {"Name":"Mexico", "id":4},
-                {"Name":"Saint Pierre and Mixuelon", "id":5},
-                {"Name":"United States", "id":6}
+                {"Name":"Bermuda", "id":0, "Children":countryProperties},
+                {"Name":"Canada", "id":1, "Children":countryProperties},
+                {"Name":"Clipperton Island", "id":2, "Children":countryProperties},
+                {"Name":"Greenland", "id":3, "Children":countryProperties},
+                {"Name":"Mexico", "id":4, "Children":countryProperties},
+                {"Name":"Saint Pierre and Mixuelon", "id":5, "Children":countryProperties},
+                {"Name":"United States", "id":6, "Children":countryProperties}
             ],
             "id":0
         },
@@ -47,6 +90,8 @@
             "Children":[],
             "id":8}
     ];
+
+
 //recursive itterator 
 var Branch = React.createClass({
     getInitialState: function() {

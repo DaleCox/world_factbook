@@ -3,12 +3,13 @@
     cursor: pointer;   
 }
 
-.treeNavUnselected ul { display: none; }
-
+/* Direct Children only */
+.treeNavUnselected > ul { display: none; }
 
 .treeNavSelected {
     list-style-image:  url(../img/down.png);
     cursor: pointer;       
 }
 
-.treeNavSelected ul { display: block; }
+/* Direct Children only */
+.treeNavSelected > ul { display: block; } 
