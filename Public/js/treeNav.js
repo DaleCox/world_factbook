@@ -47,14 +47,15 @@ var countryProperties = [
         {
             "Name":"North America",
             "Children":[
-                {"Name":"Bermuda", "id":0, "Children":countryProperties},
-                {"Name":"Canada", "id":1, "Children":countryProperties},
-                {"Name":"Clipperton Island", "id":2, "Children":countryProperties},
-                {"Name":"Greenland", "id":3, "Children":countryProperties},
-                {"Name":"Mexico", "id":4, "Children":countryProperties},
-                {"Name":"Saint Pierre and Mixuelon", "id":5, "Children":countryProperties},
-                {"Name":"United States", "id":6, "Children":countryProperties}
-            ],
+                {"Name":"Bermuda", "id":0, "Children":countryProperties, "regionMap":"noa/bd_large_locator.gif"},
+                {"Name":"Canada", "id":1, "Children":countryProperties, "regionMap":"noa/ca_large_locator.gif"},
+                {"Name":"Clipperton Island", "id":2, "Children":countryProperties, "regionMap":"noa/ip_large_locator.gif"},
+                {"Name":"Greenland", "id":3, "Children":countryProperties, "regionMap":"noa/gl_large_locator.gif"},
+                {"Name":"Mexico", "id":4, "Children":countryProperties, "regionMap":"noa/mx_large_locator.gif"},
+                {"Name":"Saint Pierre and Mixuelon", "id":5, "Children":countryProperties, "regionMap":"noa/sb_large_locator.gif"},
+                {"Name":"United States", "id":6, "Children":countryProperties, "regionMap":"noa/us_large_locator.gif"}
+            ],            
+            "regionMap": "reg_na_large_locator.gif",
             "id":0
         },
         {
@@ -100,8 +101,11 @@ var Branch = React.createClass({
     handleClick(evt) {
         evt.stopPropagation();
         //could have also used a boolean state to track selection 
-        if(this.state.className == "treeNavUnselected" )
+        if(this.state.className == "treeNavUnselected" ){
             this.setState({className: "treeNavSelected"});
+            //using gloabl event component to componet communication is easy for this small app though Redux could be used in larger applications.
+            window.x.displayRegion(this.props.children.Name, this.props.children.Children, this.props.children.regionMap)
+        }
         else
             this.setState({className: "treeNavUnselected"});
     },  

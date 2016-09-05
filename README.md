@@ -10,6 +10,8 @@ This is a project for exploring the use of the React framework. As I hit milesto
 The wireframes for the site can be found in the Design folder, they were created using Balsamiq.
 The wireframes have been exported to PDF for easier viewing, see https://github.com/DaleCox/world_factbook/blob/master/Design/World_Factbook_Refactored_design.pdf 
 
+I have also added an Entity Model as well to show the data relationships. It has been normalized to the thrid normal form (3NF). 
+
 ## Datasource
 The Data for the site is taken from https://www.cia.gov/library/publications/resources/the-world-factbook/ Summer 2016. 
 
@@ -28,6 +30,9 @@ The React Tree Component uses CSS to hide and show branches / leafs. For small t
  - Nav tree 
   - Leaf node class (img and background color when selected)
  - Region Content
+  - Add mouse over functionality in region viewer
+  - Handle error state when no data like map path
+  - Add Country click event to load country data 
  - Country Content
 - Format footer 
 - Unit testing 

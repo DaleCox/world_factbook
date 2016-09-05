@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title>The World Factbook Refactored</title>
         <link rel="stylesheet" type="text/css" href="css/treeNav.css">
+        <link rel="stylesheet" type="text/css" href="css/content.css">
         <!-- Not required with node hosting 
         <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
@@ -27,12 +28,13 @@
         </header>
         <div id="mainContent">
             <nav id="leftNav" style="float:left;"></nav>
-            <div id="content">
-                <p>
+            <div id="content" style="float:left;">
+                <!-- <p>
                     The <b>World Factbook</b> provides information on the history, people, government, economy, geography, communications, transportation, military, and transnational issues for 267 world entities. 
                     <br/><br/> Currently the site only supports content from North America. Select a Region on the left to get started. 
                     <br/><br/> The original site that this one is based on can be found at <a href="https://www.cia.gov/library/publications/the-world-factbook/" target="_blank">CIA World Factbook</a>.
-                </p>
+                </p> -->
+                If you see this message something has gone wrong please reload the page. 
             </div>
         </div>
         <br clear="all"/>
@@ -45,6 +47,11 @@
                 <img alt="GitHub Logo" src="img/GitHub-Mark-32px.png"/>
             </a>
         </footer>
+        <script type="text/javascript">
+            //Global event object
+            window.x = new Object();
+        </script>
         <script type="text/babel" src="js/treeNav.js"></script>
+        <script type="text/babel" src="js/regionContent.js"></script>
     </body>
 </html>

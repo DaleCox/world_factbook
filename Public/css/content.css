@@ -1,0 +1,15 @@
+.countryListItem {
+    cursor: pointer;
+    list-style: none;
+}
+
+#countryListId{
+    float:left;
+}
+#regionImageId{
+    float:left;
+}
+
+#contentTitleId{
+    text-align: center;
+}
